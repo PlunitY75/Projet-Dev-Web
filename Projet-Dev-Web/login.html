@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>Connexion</title>
+    <link rel="stylesheet" href="CSS/login.css">
+</head>
+<body>
+<div class="container">
+    <div class="form">
+        <h2>Se connecter</h2>
+        <form method="POST" action="config/login.php">
+            <div class="inputBox">
+                <div id="error-message" style="color: red;"></div>
+                <input type="text" name="email" placeholder="Saisissez votre email" required> <br>
+                <input type="password" name="password" placeholder="Saisissez votre mot de passe" required> <br>
+                <input type="submit" name="submit" value="Se connecter">
+            </div>
+        </form>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="JS/login.js"></script>
+</body>
+</html>
